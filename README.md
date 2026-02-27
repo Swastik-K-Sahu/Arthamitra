@@ -43,9 +43,9 @@ A mobile-first, AI-powered financial management platform designed for regional M
 ![Sequence Diagram](resources/sequence_diagram.png)
 
 The platform runs on a serverless AWS infrastructure with:
-- **API Layer**: AWS API Gateway + Cognito authentication
+- **API Layer**: AWS API Gateway 
 - **Application Layer**: AWS Lambda microservices
-- **AI/ML Services**: Amazon Bedrock, Transcribe, Polly, Textract, Comprehend
-- **Data Layer**: DynamoDB, S3, Timestream, OpenSearch
+- **AI/ML Services**: Amazon Bedrock, Transcribe, Textract
+- **Data Layer**: DynamoDB, S3
 - **Mobile Client**: React PWA with offline-first capabilities
 
